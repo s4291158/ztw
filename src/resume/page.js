@@ -36,7 +36,7 @@ class ResumePage extends Component {
           <div className="row row-section row-intro">
             <div className="col m3 s12">
               <div className="dp-container">
-                <img className="circle" src={Avatar}/>
+                <img className="circle" src={Avatar} alt="Zerong Tony Wang"/>
               </div>
             </div>
             <div className="col m9 s12">
