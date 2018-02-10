@@ -1,6 +1,7 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Avatar from "./avatar.png";
 import "./page.css";
+
 
 class ResumePage extends Component {
   render() {
@@ -61,9 +62,10 @@ class ResumePage extends Component {
               <p className="flow-text">
                 Startup oriented software developer with a focus on product development, growth and management.
               </p>
+
               <ul className="browser-default">
                 <li>3+ years in the Brisbane startup scene</li>
-                <li>15+ projects a year</li>
+                <li>15+ projects per year</li>
               </ul>
             </div>
           </div>
@@ -123,14 +125,13 @@ class ResumePage extends Component {
                 <span>2016.5 - 2017.2</span>
                 <ul className="browser-default">
                   <li>
-                    Core backend developer for all 3 MVP products with the largest serving more than 40 endpoints
+                    Lead backend developer for Python & Django codebase serving 50+ endpoints
                   </li>
+
                   <li>
-                    Lead and participated in small team to build product backend, using Python, Django, and Postgresql
+                    Frontend development in ReactJS
                   </li>
-                  <li>
-                    Contributed to frontend development in ReactJS
-                  </li>
+
                   <li>
                     SCRUM, agile, and test driven development
                   </li>
@@ -310,5 +311,6 @@ class ResumePage extends Component {
     )
   }
 }
+
 
 export default ResumePage;
