@@ -63,7 +63,7 @@ class ResumePage extends Component {
               </p>
               <ul className="browser-default">
                 <li>3+ years in the Brisbane startup scene</li>
-                <li>8+ projects a year</li>
+                <li>15+ projects a year</li>
               </ul>
             </div>
           </div>
