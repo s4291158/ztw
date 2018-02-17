@@ -9,9 +9,9 @@ class App extends Component {
         <div className="App">
           <div className="page-content">
             <Switch>
-              <Route exact path="/resume" component={ResumePage}/>
+              <Route exact path="/me" component={ResumePage}/>
 
-              <Route render={() => <Redirect to="/resume"/>}/>
+              <Route render={() => <Redirect to="/me"/>}/>
             </Switch>
           </div>
         </div>

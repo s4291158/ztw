@@ -30,5 +30,7 @@
 .ResumePage .row-section {
   padding-bottom: 20px;
   border-bottom: 1px solid lightgray; }
+  .ResumePage .row-section.no-border {
+    border-bottom: none; }
 
 /*# sourceMappingURL=page.css.map */

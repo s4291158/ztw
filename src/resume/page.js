@@ -155,7 +155,7 @@ class ResumePage extends Component {
               </div>
             </div>
           </div>
-          <div className="row row-section">
+          <div className="row row-section no-border">
             <div className="col m3 s12">
               <h5>Projects</h5>
             </div>
@@ -168,16 +168,15 @@ class ResumePage extends Component {
               </div>
 
               <div className="section-item">
-                <h6 className="section-title">The Modern Virus - A study of social psychology in virality</h6>
+                <h6 className="section-title">The Modern Virus - A study of social psychology in product virality</h6>
                 <span className="grey-text">Current</span>
                 <p>
-                  Inspired by books like Hooked, Contagious, and Influence, this project aims to apply social psychology
-                  knowledge and practices to engineer virality.
+                  Guided by the books:
+                  <a target="_blank" rel="noopener noreferrer" href="https://g.co/kgs/YHABNM"> <i>Hooked</i></a>,
+                  <a target="_blank" rel="noopener noreferrer" href="https://g.co/kgs/x4ZqFX"> <i>Contagious</i></a>,
+                  and <a target="_blank" rel="noopener noreferrer" href="https://g.co/kgs/u76dxb"><i>Influence</i></a>,
+                  this project aims to apply social psychology knowledge and practices to orchestrate product virality.
                 </p>
-                <ul className="browser-default">
-                  <li>React + Django Serverless</li>
-                  <li>Graph Database</li>
-                </ul>
               </div>
 
               <div className="section-item">
@@ -252,7 +251,8 @@ class ResumePage extends Component {
               </div>
             </div>
           </div>
-          <div className="row">
+
+          <div className="row" hidden>
             <div className="col m3 s12">
               <h5 className="truncate">Recommendations</h5>
             </div>
