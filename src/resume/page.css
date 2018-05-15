@@ -2,12 +2,16 @@
   background-color: white;
   margin-top: 100px;
   margin-bottom: 100px;
-  padding: 25px; }
+  padding: 80px; }
   @media (max-width: 997px) {
     .ResumePage .main-container {
       margin: 0 auto;
       width: 100%;
-      box-shadow: none; } }
+      box-shadow: none;
+      padding: 50px; } }
+  @media (max-width: 600px) {
+    .ResumePage .main-container {
+      padding: 25px; } }
 .ResumePage .vertical-separator {
   display: inline-block;
   margin: 0 5px; }

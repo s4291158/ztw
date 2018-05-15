@@ -50,6 +50,8 @@ class ResumePage extends Component {
                     zerongtonywang@gmail.com
                   </span>
                 </a>
+
+                <p>(+61) 0439 406 499</p>
               </div>
             </div>
           </div>
@@ -59,13 +61,13 @@ class ResumePage extends Component {
               <h5>Summary</h5>
             </div>
             <div className="col m9 s12">
-              <p className="flow-text">
+              <p>
                 Startup oriented software developer with a focus on product development, growth and management.
               </p>
 
               <ul className="browser-default">
                 <li>3+ years in the Brisbane startup scene</li>
-                <li>15+ projects per year</li>
+                <li>15+ client & private projects per year</li>
               </ul>
             </div>
           </div>
@@ -78,8 +80,8 @@ class ResumePage extends Component {
             <div className="col m3 s12">
               <h6 className="section-title">Code</h6>
               <ul>
-                <li>Python, Django</li>
-                <li>Javascript, React</li>
+                <li>Python, Flask, Django</li>
+                <li>Javascript, Node, React</li>
               </ul>
             </div>
 
@@ -87,16 +89,16 @@ class ResumePage extends Component {
             <div className="col m3 s12">
               <h6 className="section-title">Tech</h6>
               <ul>
-                <li>AWS serverless</li>
-                <li>Various other AWS services</li>
-                <li>SQL & Graph databases</li>
+                <li>Serverless</li>
+                <li>Various AWS services</li>
+                <li>Relational databases</li>
               </ul>
             </div>
 
             <div className="col m3 s12">
               <h6 className="section-title">Startup</h6>
               <ul>
-                <li>Rapid MVP building</li>
+                <li>Rapid product development</li>
                 <li>Agile, TDD, SCRUM</li>
                 <li>Product management</li>
               </ul>
@@ -155,7 +157,7 @@ class ResumePage extends Component {
               </div>
             </div>
           </div>
-          <div className="row row-section no-border">
+          <div className="row row-section">
             <div className="col m3 s12">
               <h5>Projects</h5>
             </div>
@@ -163,7 +165,7 @@ class ResumePage extends Component {
               <div className="section-item">
                 <h6 className="section-title">Private Projects</h6>
                 <p>
-                  More than a dozen projects built on mostly react, django or serverless, get in touch for demos.
+                  More than a dozen projects built on mostly react, django or serverless, more details available upon request.
                 </p>
               </div>
 
@@ -177,6 +179,8 @@ class ResumePage extends Component {
                   and <a target="_blank" rel="noopener noreferrer" href="https://g.co/kgs/u76dxb"><i>Influence</i></a>,
                   this project aims to apply social psychology knowledge and practices to orchestrate product virality.
                 </p>
+
+                <p>More details coming soon...</p>
               </div>
 
               <div className="section-item">
@@ -252,58 +256,66 @@ class ResumePage extends Component {
             </div>
           </div>
 
-          <div className="row" hidden>
+          <div className="row">
             <div className="col m3 s12">
-              <h5 className="truncate">Recommendations</h5>
+              <h5 className="truncate">References</h5>
             </div>
             <div className="col m9 s12">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/david-uhlmann-23aa5177/">
-                <h6 className="section-title">David Uhlmann</h6>
-              </a>
-              <span className="grey-text">Then CTO of iRecruit</span>
+              <p>Available upon request</p>
 
-              <p>
-                I have worked with Tony as his manager from May 2016 to Feb 2017 at iRecruit Australia. During that time
-                Tony
-                continually displayed the kind of motivation and drive that every manager hopes to see in a new
-                graduate,
-                except that for the time he was at iRecruit Tony was still studying his final year of Computer Science.
-                Tony
-                has a drive to continually learn and improve, not just in new programming and ops skills but also
-                management
-                and communication skills: having worked his way through the books: Hard Thing About Hard Things,
-                Creativity
-                Inc, Master of Doom, and The Personal MBA, far quicker than I had managed to. I greatly admired this
-                about
-                Tony, as I had placed him into the Backend Team Lead role even though he lacked experience: but Tony
-                recognised early on that he was not doing well as a manager, then took responsibility for his team and
-                proactively started seeking ways to self-improve and improve the team environment.
-              </p>
-              <p>
-                As a team member: Tony is friendly, humorous, and full of memeful banter. As a team lead: Tony leans
-                towards a
-                conservative and knowledge-based approach, requiring solid evidence of improvements before accepting new
-                processes or concepts into the protected branches of his team's repo.
-              </p>
-              <p>
-                Tony's skills lie mainly in backend application code where he used his specialised knowledge of
-                Python/Django/DjangoRestFramework to help build the iRecruit API and database. There as Backend Team
-                Lead,
-                Tony oversaw the implementation of the API validation and logic, Postgres DB structure, migrations,
-                seeding,
-                and ORM optimisations to reduce DB calls, and all git merge requests involving those. I greatly
-                appreciated
-                Tony's help in these areas and was able to rely on his domain knowledge enough that I was able to
-                instead
-                focus my efforts on other areas of our product implementation and dev ops processes. Tony also did a bit
-                of
-                frontend React-Redux coding for a few weeks at iRecruit.
-              </p>
-              <p>
-                In summary, Tony is a capable developer and a developer who is capable of growing into a role, who is
-                well
-                suited to python backend applications and React projects.
-              </p>
+              <div hidden>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/david-uhlmann-23aa5177/">
+                  <h6 className="section-title">David Uhlmann</h6>
+                </a>
+                <span className="grey-text">Then CTO of iRecruit</span>
+
+                <p>
+                  I have worked with Tony as his manager from May 2016 to Feb 2017 at iRecruit Australia. During that
+                  time
+                  Tony
+                  continually displayed the kind of motivation and drive that every manager hopes to see in a new
+                  graduate,
+                  except that for the time he was at iRecruit Tony was still studying his final year of Computer
+                  Science.
+                  Tony
+                  has a drive to continually learn and improve, not just in new programming and ops skills but also
+                  management
+                  and communication skills: having worked his way through the books: Hard Thing About Hard Things,
+                  Creativity
+                  Inc, Master of Doom, and The Personal MBA, far quicker than I had managed to. I greatly admired this
+                  about
+                  Tony, as I had placed him into the Backend Team Lead role even though he lacked experience: but Tony
+                  recognised early on that he was not doing well as a manager, then took responsibility for his team and
+                  proactively started seeking ways to self-improve and improve the team environment.
+                </p>
+                <p>
+                  As a team member: Tony is friendly, humorous, and full of memeful banter. As a team lead: Tony leans
+                  towards a
+                  conservative and knowledge-based approach, requiring solid evidence of improvements before accepting
+                  new
+                  processes or concepts into the protected branches of his team's repo.
+                </p>
+                <p>
+                  Tony's skills lie mainly in backend application code where he used his specialised knowledge of
+                  Python/Django/DjangoRestFramework to help build the iRecruit API and database. There as Backend Team
+                  Lead,
+                  Tony oversaw the implementation of the API validation and logic, Postgres DB structure, migrations,
+                  seeding,
+                  and ORM optimisations to reduce DB calls, and all git merge requests involving those. I greatly
+                  appreciated
+                  Tony's help in these areas and was able to rely on his domain knowledge enough that I was able to
+                  instead
+                  focus my efforts on other areas of our product implementation and dev ops processes. Tony also did a
+                  bit
+                  of
+                  frontend React-Redux coding for a few weeks at iRecruit.
+                </p>
+                <p>
+                  In summary, Tony is a capable developer and a developer who is capable of growing into a role, who is
+                  well
+                  suited to python backend applications and React projects.
+                </p>
+              </div>
             </div>
           </div>
         </div>
