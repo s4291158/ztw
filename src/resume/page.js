@@ -8,7 +8,7 @@ class ResumePage extends Component {
     return (
       <div className="ResumePage">
         <div className="container main-container z-depth-3">
-          <div className="row">
+          <div className="row social-links-container">
             <div className="col s12 center-align">
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zerongtonywang/">
                 <span>
@@ -34,7 +34,7 @@ class ResumePage extends Component {
             </div>
           </div>
 
-          <div className="row row-section row-intro">
+          <div className="row row-section intro-container">
             <div className="col m3 s12">
               <div className="dp-container">
                 <img className="circle" src={Avatar} alt="Zerong Tony Wang"/>
@@ -42,7 +42,7 @@ class ResumePage extends Component {
             </div>
             <div className="col m9 s12">
               <div className="headline">
-                <h3>Zerong Tony Wang</h3>
+                <h3 className="name">Zerong Tony Wang</h3>
                 <h5 className="grey-text lighten-2 flow-text">Full Stack Software Developer</h5>
 
                 <a href="mailto:zerongtonywang@gmail.com?Subject=Intro">

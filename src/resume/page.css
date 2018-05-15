@@ -15,13 +15,17 @@
 .ResumePage .vertical-separator {
   display: inline-block;
   margin: 0 5px; }
-.ResumePage .dp-container img {
+.ResumePage .social-links-container {
+  margin-bottom: 50px; }
+.ResumePage .intro-container .name {
+  margin-top: 0; }
+.ResumePage .intro-container .dp-container img {
   display: block;
   width: 90%;
   max-width: 180px;
   margin: auto; }
   @media (max-width: 600px) {
-    .ResumePage .dp-container img {
+    .ResumePage .intro-container .dp-container img {
       width: 45%; } }
 @media (max-width: 600px) {
   .ResumePage .headline {

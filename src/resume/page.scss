@@ -22,15 +22,25 @@
     margin: 0 5px;
   }
 
-  .dp-container {
-    img {
-      display: block;
-      width: 90%;
-      max-width: 180px;
-      margin: auto;
+  .social-links-container {
+    margin-bottom: 50px;
+  }
 
-      @media (max-width: 600px) {
-        width: 45%
+  .intro-container {
+    .name {
+      margin-top: 0;
+    }
+
+    .dp-container {
+      img {
+        display: block;
+        width: 90%;
+        max-width: 180px;
+        margin: auto;
+
+        @media (max-width: 600px) {
+          width: 45%
+        }
       }
     }
   }
