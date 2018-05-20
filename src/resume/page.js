@@ -123,6 +123,24 @@ class ResumePage extends Component {
               </div>
 
               <div className="section-item">
+                <h6 className="section-title">Software Contractor - Neds</h6>
+                <span>2017.2 - 2017.5</span>
+                <ul className="browser-default">
+                  <li>
+                    Three months contract to develop a messenger bot to handle custom functions and FAQ
+                  </li>
+
+                  <li>
+                    Developed bot using DialogFlow, Python, AWS Lambda
+                  </li>
+
+                  <li>
+                    The bot is currently live and serving Neds customers
+                  </li>
+                </ul>
+              </div>
+
+              <div className="section-item">
                 <h6 className="section-title">Software Engineer - iRecruit Australia</h6>
                 <span>2016.5 - 2017.2</span>
                 <ul className="browser-default">
@@ -165,7 +183,8 @@ class ResumePage extends Component {
               <div className="section-item">
                 <h6 className="section-title">Private Projects</h6>
                 <p>
-                  More than a dozen projects built on mostly react, django or serverless, more details available upon request.
+                  More than a dozen projects built on mostly react, django or serverless, more details available upon
+                  request.
                 </p>
               </div>
 
