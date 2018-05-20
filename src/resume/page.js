@@ -124,7 +124,7 @@ class ResumePage extends Component {
 
               <div className="section-item">
                 <h6 className="section-title">Software Contractor - Neds</h6>
-                <span>2017.2 - 2017.5</span>
+                <span>2018.2 - 2018.5</span>
                 <ul className="browser-default">
                   <li>
                     Three months contract to develop a messenger bot to handle custom functions and FAQ
