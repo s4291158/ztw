@@ -31,7 +31,7 @@ class ResumePage extends Component {
           <div className="row row-section intro-container">
             <div className="col m3 s12">
               <div className="dp-container">
-                <img className="circle" src={Avatar} alt="Zerong Tony Wang"/>
+                <img className="circle" src={Avatar} alt="Zerong Tony Wang" />
               </div>
             </div>
             <div className="col m9 s12">
@@ -51,10 +51,11 @@ class ResumePage extends Component {
               <h5>Summary</h5>
             </div>
             <div className="col m9 s12">
-              <p>Often with a lot going on but always open to new opportunities, let's connect.</p>
+              <p>Product focused developer capable to leading teams and manage products.</p>
 
               <ul className="browser-default">
-                <li>3+ years in the Brisbane startup scene</li>
+                <li>6+ years coding</li>
+                <li>3+ years professional development</li>
                 <li>15+ client & private projects per year</li>
               </ul>
             </div>
@@ -69,7 +70,7 @@ class ResumePage extends Component {
               <h6 className="section-title">Code</h6>
               <ul>
                 <li>Python, Flask, Django</li>
-                <li>Javascript, Node, React</li>
+                <li>Javascript, Typescript, React, Node, Express</li>
               </ul>
             </div>
 
@@ -78,17 +79,17 @@ class ResumePage extends Component {
               <h6 className="section-title">Tech</h6>
               <ul>
                 <li>Serverless</li>
-                <li>Various AWS services</li>
+                <li>AWS proficient</li>
                 <li>Relational databases</li>
               </ul>
             </div>
 
             <div className="col m3 s12">
-              <h6 className="section-title">Startup</h6>
+              <h6 className="section-title">Work</h6>
               <ul>
                 <li>Rapid prototyping</li>
                 <li>Agile, TDD, SCRUM</li>
-                <li>Product management</li>
+                <li>Product lead & management</li>
               </ul>
             </div>
           </div>
@@ -100,21 +101,34 @@ class ResumePage extends Component {
 
             <div className="col m9 s12">
               <div className="section-item">
-                <h6 className="section-title">Software Contractor</h6>
-                <span>Feb 2017 - Current</span>
-                <ul className="browser-default">
-                  <li>Consulting</li>
-                  <li>Fast integration with existing teams</li>
-                  <li>Full project development</li>
-                </ul>
-              </div>
-
-              <div className="section-item">
                 <h6 className="section-title">Frontend Developer - Culture Kings</h6>
                 <span>Jun 2018 - Current</span>
                 <ul className="browser-default">
                   <li>Implement template designs in Shopify Liquid</li>
                   <li>On going effort to move eCommerce platform to SPA with React</li>
+                  <li>Typescript React integrating with Algolia for product search feature</li>
+                </ul>
+              </div>
+
+              <div className="section-item">
+                <h6 className="section-title">Software Contractor</h6>
+                <span>Feb 2017 - Current</span>
+                <ul className="browser-default">
+                  <li>Consulting</li>
+                  <li>Full project delivery</li>
+                  <li>Project management</li>
+                </ul>
+                <p>Contract experiences are elaborated below ▼</p>
+              </div>
+
+              <div className="section-item">
+                <h6 className="section-title">Software Contractor - Queensland Urban Utilities</h6>
+                <span>Jul 2018 - Current</span>
+                <ul className="browser-default">
+                  <li>Full project delivery</li>
+                  <li>UI/UX deign using Sketch & Material Design</li>
+                  <li>Backend using Serverless, Node, Express, Postgres, etc</li>
+                  <li>Project management of small team</li>
                 </ul>
               </div>
 
@@ -128,17 +142,17 @@ class ResumePage extends Component {
               </div>
 
               <div className="section-item">
-                <h6 className="section-title">Technology Manager - Small Giants Advisory</h6>
+                <h6 className="section-title">Software Contractor - Small Giants Advisory</h6>
                 <span>Feb 2018 - Current</span>
                 <ul className="browser-default">
+                  <li>Full project delivery</li>
                   <li>Consulting</li>
                   <li>General IT management, e.g. accounts, emails, etc.</li>
-                  <li>Design and implement full software solutions</li>
                 </ul>
               </div>
 
               <div className="section-item">
-                <h6 className="section-title">Software Developer (Contract) - Neds</h6>
+                <h6 className="section-title">Software Contractor - Neds</h6>
                 <span>Feb 2018 - May 2018</span>
                 <ul className="browser-default">
                   <li>Three months contract to develop a messenger bot to handle custom functions and FAQ</li>
