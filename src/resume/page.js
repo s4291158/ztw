@@ -37,7 +37,7 @@ class ResumePage extends Component {
             <div className="col m9 s12">
               <div className="headline">
                 <h3 className="name">Zerong Tony Wang</h3>
-                <h5 className="grey-text lighten-2 flow-text">Full Stack Software Developer</h5>
+                <h5 className="grey-text lighten-2 flow-text">Software Contractor & Full-Stack Developer</h5>
                 <a href="mailto:zerongtonywang@gmail.com?Subject=Intro">
                   <span className="flow-text">zerongtonywang@gmail.com</span>
                 </a>
@@ -51,9 +51,9 @@ class ResumePage extends Component {
               <h5>Summary</h5>
             </div>
             <div className="col m9 s12">
-              <p>Product focused developer capable to leading teams and manage products.</p>
+              <p>Managing an effective & widely-capable freelance dev team of ~10 years exp. We're communication focused and open to projects in design, web, mobile, custom systems, etc. Let me know if we could help.</p>
 
-              <ul className="browser-default">
+              <ul className="browser-default" hidden>
                 <li>6+ years coding</li>
                 <li>3+ years professional development</li>
                 <li>15+ client & private projects per year</li>
@@ -88,8 +88,8 @@ class ResumePage extends Component {
               <h6 className="section-title">Work</h6>
               <ul>
                 <li>Rapid prototyping</li>
-                <li>Agile, TDD, SCRUM</li>
-                <li>Product lead & management</li>
+                <li>Dev team lead</li>
+                <li>Product management</li>
               </ul>
             </div>
           </div>
@@ -101,6 +101,19 @@ class ResumePage extends Component {
 
             <div className="col m9 s12">
               <div className="section-item">
+                <h6 className="section-title">Software Contractor</h6>
+                <span>Feb 2017 - Current</span>
+                <ul className="browser-default">
+                  <li>10+ projects a year</li>
+                  <li>Less than 4 weeks usual turnaround for first product iteration</li>
+                  <li>Communication focused product design and roadmap building</li>
+                  <li>Maintainable & expressive code, adhere to most industry best practices</li>
+                  <li>Scalable stack via Netlify & Serverless</li>
+                </ul>
+                <p>Contract experiences elaborated below ▼</p>
+              </div>
+              
+              <div className="section-item">
                 <h6 className="section-title">Frontend Developer - Culture Kings</h6>
                 <span>Jun 2018 - Current</span>
                 <ul className="browser-default">
@@ -111,24 +124,14 @@ class ResumePage extends Component {
               </div>
 
               <div className="section-item">
-                <h6 className="section-title">Software Contractor</h6>
-                <span>Feb 2017 - Current</span>
-                <ul className="browser-default">
-                  <li>Consulting</li>
-                  <li>Full project delivery</li>
-                  <li>Project management</li>
-                </ul>
-                <p>Contract experiences are elaborated below ▼</p>
-              </div>
-
-              <div className="section-item">
                 <h6 className="section-title">Software Contractor - Queensland Urban Utilities</h6>
                 <span>Jul 2018 - Current</span>
                 <ul className="browser-default">
-                  <li>Full project delivery</li>
+                  <li>Project manager & dev team lead</li>
+                  <li>First product iteration within 3 weeks</li>
                   <li>UI/UX deign using Sketch & Material Design</li>
-                  <li>Backend using Serverless, Node, Express, Postgres, etc</li>
-                  <li>Project management of small team</li>
+                  <li>Frontend using usual Typescript React stack and Material-UI</li>
+                  <li>Backend using Typescript, Serverless, Node, etc.</li>
                 </ul>
               </div>
 
@@ -136,7 +139,8 @@ class ResumePage extends Component {
                 <h6 className="section-title">Frontend Developer (Contract) - Labrys</h6>
                 <span>Jun 2018 - Current</span>
                 <ul className="browser-default">
-                  <li>Implement webapp design in React</li>
+                  <li>First product iteration as per design within 4 weeks</li>
+                  <li>Frontend using usual React stack</li>
                   <li>Integration with blockchain infrastructure</li>
                 </ul>
               </div>
@@ -145,9 +149,10 @@ class ResumePage extends Component {
                 <h6 className="section-title">Software Contractor - Small Giants Advisory</h6>
                 <span>Feb 2018 - Current</span>
                 <ul className="browser-default">
-                  <li>Full project delivery</li>
-                  <li>Consulting</li>
                   <li>General IT management, e.g. accounts, emails, etc.</li>
+                  <li>Technical Consulting</li>
+                  <li>Full project development</li>
+                  <li>First iteration within 4 weeks</li>
                 </ul>
               </div>
 
@@ -155,9 +160,9 @@ class ResumePage extends Component {
                 <h6 className="section-title">Software Contractor - Neds</h6>
                 <span>Feb 2018 - May 2018</span>
                 <ul className="browser-default">
-                  <li>Three months contract to develop a messenger bot to handle custom functions and FAQ</li>
-                  <li>Developed bot using DialogFlow, Python, AWS Lambda</li>
-                  <li>The bot is currently live and serving Neds customers</li>
+                  <li>Implemented Facebook Messenger bot for betting inquiries and FAQ</li>
+                  <li>Backend using DialogFlow, Python, AWS Lambda</li>
+                  <li>Bot is currently live and serving Neds customers</li>
                 </ul>
               </div>
 
@@ -165,8 +170,8 @@ class ResumePage extends Component {
                 <h6 className="section-title">Frontend Developer (Contract) - Hydric Media</h6>
                 <span>Mar 2018</span>
                 <ul className="browser-default">
-                  <li>Implement design changes, animation and CMS integration </li>
-                  <li>Collaborative project between Hydric Media, Spotify and Emirates</li>
+                  <li>Implemented design changes, custom animations and CMS integration in React</li>
+                  <li>Collaborated with Spotify and Emirates</li>
                 </ul>
               </div>
 
@@ -174,7 +179,7 @@ class ResumePage extends Component {
                 <h6 className="section-title">Frontend Developer (Contract) - Pitchblak</h6>
                 <span>May 2017 - Nov 2017</span>
                 <ul className="browser-default">
-                  <li>Implement webapp design in D3, React</li>
+                  <li>Developed webapps as per design in usual React stack & D3</li>
                 </ul>
               </div>
 
@@ -182,9 +187,10 @@ class ResumePage extends Component {
                 <h6 className="section-title">Lead Backend Engineer - iRecruit Australia</h6>
                 <span>May 2016 - Feb 2017</span>
                 <ul className="browser-default">
-                  <li>Core backend developer for all 3 MVP products with the largest serving more than 40 endpoints</li>
-                  <li>Lead and participated in small team to build product backend, using Python, Django, and Postgresql</li>
-                  <li>Frontend development in ReactJS</li>
+                  <li>Lead backend developer for all 3 MVP products with the largest serving more than 40 endpoints</li>
+                  <li>Backend team lead of up to a 4-member team</li>
+                  <li>Backend using usual Django stack</li>
+                  <li>Frontend using usual React stack</li>
                   <li>SCRUM, agile, and test driven development</li>
                 </ul>
               </div>
@@ -193,7 +199,7 @@ class ResumePage extends Component {
                 <h6 className="section-title">Tech Intern - ilab UQ</h6>
                 <span>Dec 2015 - Mar 2016</span>
                 <ul className="browser-default">
-                  <li>Full stack developer for two MVPs (one Java, one Python)</li>
+                  <li>Full stack developer for two MVPs in Java and Python</li>
                   <li>Content marketing & SEO</li>
                   <li>Advised startup companies on business model and finding product market fit</li>
                 </ul>
