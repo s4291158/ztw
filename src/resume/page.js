@@ -112,16 +112,6 @@ class ResumePage extends Component {
                 </ul>
                 <p>Contract experiences elaborated below ▼</p>
               </div>
-              
-              <div className="section-item">
-                <h6 className="section-title">Frontend Developer - Culture Kings</h6>
-                <span>Jun 2018 - Current</span>
-                <ul className="browser-default">
-                  <li>Implement template designs in Shopify Liquid</li>
-                  <li>On going effort to move eCommerce platform to SPA with React</li>
-                  <li>Typescript React integrating with Algolia for product search feature</li>
-                </ul>
-              </div>
 
               <div className="section-item">
                 <h6 className="section-title">Software Contractor - Queensland Urban Utilities</h6>
@@ -134,14 +124,14 @@ class ResumePage extends Component {
                   <li>Backend using Typescript, Serverless, Node, etc.</li>
                 </ul>
               </div>
-
+              
               <div className="section-item">
-                <h6 className="section-title">Frontend Developer (Contract) - Labrys</h6>
+                <h6 className="section-title">Frontend Developer - Culture Kings</h6>
                 <span>Jun 2018 - Current</span>
                 <ul className="browser-default">
-                  <li>First product iteration as per design within 4 weeks</li>
-                  <li>Frontend using usual React stack</li>
-                  <li>Integration with blockchain infrastructure</li>
+                  <li>Implement template designs in Shopify Liquid</li>
+                  <li>On going effort to move eCommerce platform to SPA with React</li>
+                  <li>Typescript React integrating with Algolia for product search feature</li>
                 </ul>
               </div>
 
@@ -153,6 +143,16 @@ class ResumePage extends Component {
                   <li>Technical Consulting</li>
                   <li>Full project development</li>
                   <li>First iteration within 4 weeks</li>
+                </ul>
+              </div>
+
+              <div className="section-item">
+                <h6 className="section-title">Frontend Developer (Contract) - Labrys</h6>
+                <span>Jun 2018 - Jul 2018</span>
+                <ul className="browser-default">
+                  <li>First product iteration as per design within 4 weeks</li>
+                  <li>Frontend using usual React stack</li>
+                  <li>Integration with blockchain infrastructure</li>
                 </ul>
               </div>
 
