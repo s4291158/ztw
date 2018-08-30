@@ -41,7 +41,7 @@ class ResumePage extends Component {
                 <a href="mailto:zerongtonywang@gmail.com?Subject=Intro">
                   <span className="flow-text">zerongtonywang@gmail.com</span>
                 </a>
-                <p>(+61) 0439 406 499</p>
+                <p>(+61) 439 406 499</p>
               </div>
             </div>
           </div>
@@ -51,12 +51,13 @@ class ResumePage extends Component {
               <h5>Summary</h5>
             </div>
             <div className="col m9 s12">
-              <p>Managing an effective & widely-capable freelance dev team of ~10 years exp. We're communication focused and open to projects in design, web, mobile, custom systems, etc. Let me know if we could help.</p>
+              <p>Managing an effective & widely-capable freelance dev team with each 5~10 years exp. We're communication focused and open to projects in design, web, mobile, machine learning, and blockchain. Let me know how we could help.</p>
 
-              <ul className="browser-default" hidden>
-                <li>6+ years coding</li>
-                <li>3+ years professional development</li>
-                <li>15+ client & private projects per year</li>
+              <ul className="browser-default">
+                <li>6+ years programming</li>
+                <li>3+ years in Brisbane startups</li>
+                <li>15+ client & personal projects per year</li>
+                <li>20+ books a year</li>
               </ul>
             </div>
           </div>
@@ -108,7 +109,6 @@ class ResumePage extends Component {
                   <li>Less than 4 weeks usual turnaround for first product iteration</li>
                   <li>Communication focused product design and roadmap building</li>
                   <li>Maintainable & expressive code, adhere to most industry best practices</li>
-                  <li>Scalable stack via Netlify & Serverless</li>
                 </ul>
                 <p>Contract experiences elaborated below ▼</p>
               </div>
