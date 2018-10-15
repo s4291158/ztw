@@ -82,7 +82,7 @@ class ResumePage extends Component {
               <h6 className="section-title">Code</h6>
               <ul>
                 <li>Python, Flask, Django</li>
-                <li>Js/Typescript, React</li>
+                <li>Js, Typescript, React</li>
               </ul>
             </div>
 
@@ -90,7 +90,7 @@ class ResumePage extends Component {
               <h6 className="section-title">Tech</h6>
               <ul>
                 <li>Serverless</li>
-                <li>AWS proficient</li>
+                <li>AWS Suite</li>
               </ul>
             </div>
 
@@ -163,20 +163,6 @@ class ResumePage extends Component {
                   <li>
                     Typescript, React, Material-UI, Serverless, Node, etc.
                   </li>
-                </ul>
-              </div>
-
-              <div className="section-item">
-                <h6 className="section-title">
-                  Software Contractor - Small Giants Advisory
-                </h6>
-                <span>Feb 2018 - Ongoing</span>
-                <ul className="browser-default">
-                  <li>General IT management, e.g. accounts, emails, etc.</li>
-                  <li>Technical consulting</li>
-                  <li>Full project development</li>
-                  <li>First iteration within 4 weeks</li>
-                  <li>React, Django, Serverless, etc.</li>
                 </ul>
               </div>
 
